@@ -1,0 +1,8 @@
+.elements__element {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 282px;
+    grid-template-rows: 282px;
+    grid-template-areas: "picture"
+                         "bottom";
+}

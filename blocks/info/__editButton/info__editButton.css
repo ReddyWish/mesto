@@ -1,0 +1,6 @@
+.info__editButton {
+    margin: 0;
+    border: 1px solid white;
+    grid-area: icon;
+    align-self: end;
+}

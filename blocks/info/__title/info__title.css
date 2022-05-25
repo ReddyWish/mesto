@@ -1,0 +1,11 @@
+.info__title {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 42px;
+    line-height: 114%;
+    color: #FFFF;
+    grid-area: title;
+    justify-self: stretch;
+}

@@ -1,0 +1,5 @@
+.bottom__like {
+    margin: 0;
+    grid-area: like;
+    align-self: start;
+}

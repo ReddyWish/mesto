@@ -1,0 +1,13 @@
+.info {
+    max-width: 100%;
+    grid-area: info;
+    display: grid;
+    grid-template-columns: 294px 24px ;
+    grid-template-rows: 39px 20%;
+    grid-template-areas:
+                         "title icon"
+                         "subtitle .";
+    column-gap: 18px;
+    row-gap: 16px;
+    padding-left: 30px;
+}
