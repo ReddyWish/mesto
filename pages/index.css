@@ -1,0 +1,23 @@
+@import url("../vendor/normalize.css");
+@import url("../vendor/fonts/fonts.css");
+@import url("../blocks/content/content.css");
+@import url("../blocks/page/page.css");
+@import url("../blocks/header/header.css");
+@import url("../blocks/header/__line/header__line.css");
+@import url("../blocks/profile/profile.css");
+@import url("../blocks/avatar/avatar.css");
+@import url("../blocks/info/info.css");
+@import url("../blocks/info/__title/info__title.css");
+@import url("../blocks/info/__subtitle/info__subtitle.css");
+@import url("../blocks/info/__editButton/info__editButton.css");
+@import url("../blocks/addButton/addButton.css");
+@import url("../blocks/elements/elements.css");
+@import url("../blocks/elements/__element/element.css");
+@import url("../blocks/picture/picture.css");
+@import url("../blocks/bottom/bottom.css");
+@import url("../blocks/bottom/__title/bottom__title.css");
+@import url("../blocks/bottom/__like/bottom__like.css");
+@import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/__mesto/footer__mesto.css");
+
+

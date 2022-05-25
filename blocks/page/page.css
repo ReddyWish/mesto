@@ -1,9 +1,9 @@
 .page {
-    max-width: 1280px;
+    max-width: 880px;
     margin: 0 auto;
     min-height: auto;
     font-family: 'Inter', Arial, sans-serif;
-    background: #2A2C2F;
+    background: #000000;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
