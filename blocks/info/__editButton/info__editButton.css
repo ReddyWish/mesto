@@ -4,3 +4,13 @@
     grid-area: icon;
     align-self: end;
 }
+
+@media screen and (max-width: 880px) {
+    .info__editButton {
+        object-fit: cover;
+        max-width: 100%;
+        font-size: 14px;
+        line-height: 17px;
+
+    }
+}

@@ -9,3 +9,15 @@
     grid-area: title;
     justify-self: stretch;
 }
+
+
+@media screen and (max-width: 880px) {
+    .info__title {
+        font-weight: 500;
+        font-style: normal;
+        font-size: 27px;
+        line-height: 33px;
+        justify-self: end;
+
+    }
+}

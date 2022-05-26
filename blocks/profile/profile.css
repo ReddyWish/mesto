@@ -9,3 +9,20 @@
     justify-items: start;
     padding-top: 40px;
 }
+
+@media screen and (max-width: 880px) {
+    .profile {
+        max-width: calc(100% - 19px * 2);
+        padding-top: 38px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 127.5px 22.25px 54px 36px 48px;
+        grid-template-areas: "avatar"
+                               "."
+                             "info"
+                              "."
+                             "button";
+        justify-items: center;
+        padding-left: 19px;
+        padding-right: 19px;
+    }
+}

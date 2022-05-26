@@ -11,3 +11,16 @@
     row-gap: 16px;
     padding-left: 30px;
 }
+
+@media screen and (max-width: 880px) {
+    .info {
+        padding-left: 0;
+        grid-template-columns: 222px 18px;
+        grid-template-rows: 24px 14px;
+        grid-template-areas:
+                         "title icon"
+                         "subtitle .";
+        column-gap: 10px;
+        row-gap: 14px;
+    }
+}
