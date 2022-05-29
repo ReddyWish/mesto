@@ -2,7 +2,7 @@
     max-width: 100%;
     grid-area: info;
     display: grid;
-    grid-template-columns: 294px 24px ;
+    grid-template-columns: 294px 24px;
     grid-template-rows: 39px 20%;
     grid-template-areas:
                          "title icon"
