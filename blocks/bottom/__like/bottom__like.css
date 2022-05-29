@@ -2,4 +2,15 @@
     margin: 0;
     grid-area: like;
     align-self: start;
+    background-image: url("../../../images/Vector (1)-min.svg");
+    width: 22px;
+    height: 19px;
+    background-size: cover;
+
 }
+
+.bottom__like:hover {
+    opacity: .6;
+    transition: .3s;
+}
+

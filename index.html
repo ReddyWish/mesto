@@ -9,85 +9,101 @@
     <title>Document</title>
 </head>
 <body>
-<div class="cover">
-<div class="content">
-  <div class="page">
+  <div class="cover">
+    <div class="content">
+      <div class="page">
 <!-------------БЛОК HEADER---------------->
         <div class="header">
-            <img src="images/Vector%20(1)-min.jpg" alt="logo-picture" class="header__logo">
+          <img src="images/Vector%20(1)-min.jpg" alt="logo-picture" class="header__logo">
         </div>
 <!--------------------------------------->
 <!------------БЛОК PROFILE--------------->
-    <div class="profile">
-        <img src="images/image-min.jpg" alt="avatar" class="avatar">
-        <div class="info">
+        <div class="profile">
+          <img src="images/image-min.jpg" alt="avatar" class="avatar">
+          <div class="info">
             <h1 class="info__title">Жак-Ив Кусто</h1>
-            <img src="images/Rectangle-min.jpg" alt="icon" class="info__editButton">
+            <a href="#popup"  class="info__editButton"></a>
             <h3 class="info__subtitle">Исследователь океана</h3>
+          </div>
+          <a href="#" onclick="return false" class="addButton"></a>
         </div>
-<!--        <img src="images/Add%20Button-min.jpg" alt="addButton" class="addButton">-->
-        <div class="addButton"></div>
-
-    </div>
 <!--------------------------------------->
+<!------------ОКНО POPUP--------------->
+        <div id ="popup" class="popup">
+          <div class="popup__body">
+            <div class="popup__content">
+              <a href="#" class="popup__close"></a>
+              <h2 class="popup__title">Редактировать профиль</h2>
+              <form class="form">
+                <input type="text" id="name" class="form__NameInput" placeholder="Жак-Ив Кусто">
+                <input type="text" id="destiny" class="form__JobInput" placeholder="Исследователь океана">
+                <input type="submit" class="form__saveButton" value=" ">
+              </form>
+            </div>
+          </div>
+        </div>
+      <!--------------------------------------->
 <!-------------БЛОК ELEMENTS------------->
-      <div class="elements">
+        <div class="elements">
           <div class="elements__element">
-              <img src="images/kirill-pershin-1088404-unsplash-min.jpg" alt="photo" class="picture">
-              <div class="bottom">
-                  <h3 class="bottom__title">Карачаевск</h3>
-                  <img src="images/Vector%20(1)-min.svg" alt="like" class="bottom__like">
-              </div>
+            <img src="images/kirill-pershin-1088404-unsplash-min.jpg" alt="photo" class="picture">
+            <div class="bottom">
+              <h3 class="bottom__title">Карачаевск</h3>
+              <a href="#" onclick="return false" class="bottom__like"></a>
+            </div>
           </div>
 
           <div class="elements__element">
-              <img src="images/kirill-pershin-1404681-unsplash-min.jpg" alt="photo" class="picture">
-              <div class="bottom">
-                  <h3 class="bottom__title">Гора Эльбрус</h3>
-                  <img src="images/Vector%20(1)-min.svg" alt="like" class="bottom__like">
-              </div>
+            <img src="images/kirill-pershin-1404681-unsplash-min.jpg" alt="photo" class="picture">
+            <div class="bottom">
+              <h3 class="bottom__title">Гора Эльбрус</h3>
+              <a href="#" onclick="return false" class="bottom__like"></a>
+            </div>
           </div>
 
           <div class="elements__element">
-              <img src="images/kirill-pershin-1556355-unsplash-min.jpg" alt="photo" class="picture">
-              <div class="bottom">
-                  <h3 class="bottom__title">Домбай</h3>
-                  <img src="images/Vector%20(1)-min.svg" alt="like" class="bottom__like">
-              </div>
+            <img src="images/kirill-pershin-1556355-unsplash-min.jpg" alt="photo" class="picture">
+            <div class="bottom">
+              <h3 class="bottom__title">Домбай</h3>
+              <a href="#" onclick="return false" class="bottom__like"></a>
+            </div>
           </div>
 
           <div class="elements__element">
-              <img src="images/kirill-pershin-1404681-unsplash-min.jpg" alt="photo" class="picture">
-              <div class="bottom">
-                  <h3 class="bottom__title">Гора Эльбрус</h3>
-                  <img src="images/Vector%20(1)-min.svg" alt="like" class="bottom__like">
-              </div>
+            <img src="images/kirill-pershin-1404681-unsplash-min.jpg" alt="photo" class="picture">
+            <div class="bottom">
+              <h3 class="bottom__title">Гора Эльбрус</h3>
+              <a href="#" onclick="return false" class="bottom__like"></a>
+            </div>
           </div>
 
           <div class="elements__element">
-              <img src="images/kirill-pershin-1556355-unsplash-min.jpg" alt="photo" class="picture">
-              <div class="bottom">
-                  <h3 class="bottom__title">Домбай</h3>
-                  <img src="images/Vector%20(1)-min.svg" alt="like" class="bottom__like">
-              </div>
+            <img src="images/kirill-pershin-1556355-unsplash-min.jpg" alt="photo" class="picture">
+            <div class="bottom">
+              <h3 class="bottom__title">Домбай</h3>
+              <a href="#" onclick="return false" class="bottom__like"></a>
+            </div>
           </div>
 
           <div class="elements__element">
-              <img src="images/kirill-pershin-1088404-unsplash-min.jpg" alt="photo" class="picture">
-              <div class="bottom">
-                  <h3 class="bottom__title">Карачаево-Черкесия</h3>
-                  <img src="images/Vector%20(1)-min.svg" alt="like" class="bottom__like">
-              </div>
+            <img src="images/kirill-pershin-1088404-unsplash-min.jpg" alt="photo" class="picture">
+            <div class="bottom">
+              <h3 class="bottom__title">Карачаево-Черкесия</h3>
+              <a href="#" onclick="return false" class="bottom__like"></a>
+            </div>
           </div>
-      </div>
+        </div>
 <!--------------------------------------->
 <!----------БЛОК FOOTER------------------->
-      <footer class="footer">
+        <footer class="footer">
           <h4 class="footer__mesto">© 2020 Mesto Russia</h4>
-      </footer>
+        </footer>
 <!--------------------------------------->
-</div>
-</div>
-</div>
+      </div>
+    </div>
+  </div>
+<script src="JS.js"></script>
+<script src="popup.js"></script>
+<script src="submit.js"></script>
 </body>
 </html>
