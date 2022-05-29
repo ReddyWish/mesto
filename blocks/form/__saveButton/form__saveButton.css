@@ -1,0 +1,23 @@
+.form__saveButton {
+    background-image: url("../../../images/Rectangle (3)-min.jpg");
+    width: 358px;
+    height: 50px;
+    margin-top: 46px;
+    border: none;
+}
+
+.form__saveButton:hover {
+    opacity: .8;
+    transition: .3s;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 880px) {
+    .form__saveButton {
+        background-image: url("../../../images/Rectangle (5)-min.jpg");
+        width: 238px;
+        height: 100%;
+        background-size: cover;
+    }
+}
+
