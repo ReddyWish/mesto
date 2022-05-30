@@ -1,9 +1,7 @@
 .edit-button__vector {
-    background-image: url("../../../../images/VectorКарандаш (4)-min.svg");
     width: 10px;
     height: 10px;
-    background-size: cover;
-
+    object-fit: cover;
 }
 
 
@@ -13,5 +11,6 @@
         width: 7.5px;
         height: 7.5px;
         justify-self: center;
+        padding-bottom: 4.25px;
     }
 }

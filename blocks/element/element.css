@@ -1,5 +1,5 @@
 .element {
-    margin: 0 auto  ;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 282px;
     grid-template-rows: 282px 79px;
