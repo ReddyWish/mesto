@@ -1,0 +1,42 @@
+.form__save-button {
+    /*background-image: url("../../../images/Rectangle (3)-min.jpg");*/
+    background-color: #000000;
+    color: #FFFFFF;
+    width: 358px;
+    height: 50px;
+    margin-top: 46px;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.form__save-button:hover {
+    opacity: .8;
+    transition: .3s;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 880px) {
+    .form__save-button {
+        /*background-image: url("../../../images/Rectangle (5)-min.jpg");*/
+        background-color: #000000;
+        display: block;
+        color: #FFFFFF;
+        width: 238px;
+        height: 46px;
+        background-size: cover;
+        padding-top: 12px;
+        padding-bottom: 30px;
+        font-family: 'Inter', sans-serif;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        margin-top: 44px;
+
+    }
+}
+

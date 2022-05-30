@@ -1,8 +1,6 @@
-.bottom__like {
-    margin: 0;
+.bottom__like_active {
     grid-area: like;
-    align-self: start;
-    background-image: url("../../../images/Vector (1)-min.svg");
+    background-image: url("../../../../images/Union-min.svg");
     width: 22px;
     height: 19px;
     background-size: cover;
@@ -12,12 +10,4 @@
     border: 0;
     border-radius: 0;
     background-color: #FFFFFF;
-    transition: .3s;
-
 }
-
-.bottom__like:hover {
-    opacity: .6;
-
-}
-

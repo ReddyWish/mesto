@@ -8,7 +8,6 @@
     align-items: center;
     justify-content: stretch;
     position: relative;
-    top: -250px;
     border-radius: 10px;
 }
 
@@ -17,7 +16,5 @@
         width: 282px;
         height: 335px;
         align-items: start;
-        top: -1117px;
-
     }
 }

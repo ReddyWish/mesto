@@ -1,0 +1,31 @@
+.add-button {
+    grid-area: button;
+    background-color: black;
+    width: 152px;
+    height: 52px;
+    padding: 14px 64px 14px 64px;
+    border: 2px solid #FFFFFF;
+    background-size: cover;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 2px;
+    transition: .3s;
+}
+
+.add-button:hover {
+    opacity: .6;
+
+}
+
+
+@media screen and (max-width: 880px) {
+    .add-button {
+        background-size: cover;
+        width: 284px;
+        height: 52px;
+        padding: 17px 132px 17px 134px;
+       justify-self: center;
+
+    }
+}

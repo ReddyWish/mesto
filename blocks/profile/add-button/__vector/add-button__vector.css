@@ -1,0 +1,13 @@
+.add-button__vector {
+    background-image: url("../../../../images/Vector (2)-min.svg");
+    width: 22px;
+    height: 22px;
+    background-size: cover;
+}
+
+@media screen and (max-width: 880px) {
+    .add-button__vector {
+        width: 16px;
+        height: 16px;
+    }
+}

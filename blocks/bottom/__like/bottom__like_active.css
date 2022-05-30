@@ -1,7 +1,0 @@
-.bottom__like_active {
-    grid-area: like;
-    background-image: url("../../../images/Union-min.svg");
-    width: 22px;
-    height: 19px;
-    background-size: cover;
-}

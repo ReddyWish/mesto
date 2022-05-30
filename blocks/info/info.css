@@ -3,24 +3,30 @@
     grid-area: info;
     display: grid;
     grid-template-columns: 294px 24px;
-    grid-template-rows: 39px 20%;
+    grid-template-rows: 51px 20%;
     grid-template-areas:
                          "title icon"
                          "subtitle .";
     column-gap: 18px;
-    row-gap: 16px;
+    row-gap: 5px;
     padding-left: 30px;
 }
 
 @media screen and (max-width: 880px) {
     .info {
         padding-left: 0;
-        grid-template-columns: 222px 18px;
-        grid-template-rows: 26px 14px;
+        grid-template-columns: 36px 189px 18px 9px;
+        grid-template-rows: 27px 16px;
+
         grid-template-areas:
-                         "title icon"
-                         "subtitle .";
+                         ". title icon ."
+                         ". subtitle . .";
         column-gap: 10px;
-        row-gap: 14px;
+        row-gap: 12px;
+        align-items: center;
+        justify-items: start;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
     }
 }
