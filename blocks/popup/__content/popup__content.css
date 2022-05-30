@@ -19,14 +19,3 @@
     }
 }
 
-@media screen and (max-width: 320px) {
-    .popup {
-        position: fixed;
-        width: 100%;
-        max-height: 100%;
-        align-items: start;
-        top: 5%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-}

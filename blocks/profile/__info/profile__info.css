@@ -1,19 +1,19 @@
-.info {
+.profile__info {
     max-width: 100%;
     grid-area: info;
     display: grid;
     grid-template-columns: 294px 24px;
-    grid-template-rows: 51px 20%;
+    grid-template-rows: 51px 24%;
     grid-template-areas:
                          "title icon"
                          "subtitle .";
     column-gap: 18px;
-    row-gap: 5px;
+    row-gap: 2px;
     padding-left: 30px;
 }
 
 @media screen and (max-width: 880px) {
-    .info {
+    .profile__info {
         padding-left: 0;
         grid-template-columns: 36px 189px 18px 9px;
         grid-template-rows: 27px 16px;

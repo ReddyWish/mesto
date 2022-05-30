@@ -1,4 +1,4 @@
-.bottom__like_active {
+.card__like_active {
     grid-area: like;
     background-image: url("../../../../images/Union-min.svg");
     width: 22px;

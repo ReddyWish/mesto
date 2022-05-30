@@ -1,5 +1,4 @@
-.form__save-button {
-    /*background-image: url("../../../images/Rectangle (3)-min.jpg");*/
+.popup__save-button {
     background-color: #000000;
     color: #FFFFFF;
     width: 358px;
@@ -13,16 +12,14 @@
     text-align: center;
 }
 
-.form__save-button:hover {
+.popup__save-button:hover {
     opacity: .8;
     transition: .3s;
     cursor: pointer;
 }
 
 @media screen and (max-width: 880px) {
-    .form__save-button {
-        /*background-image: url("../../../images/Rectangle (5)-min.jpg");*/
-        background-color: #000000;
+    .popup__save-button {
         display: block;
         color: #FFFFFF;
         width: 238px;

@@ -1,4 +1,4 @@
-.bottom__like {
+.card__like {
     margin: 0;
     grid-area: like;
     align-self: start;
@@ -16,7 +16,7 @@
 
 }
 
-.bottom__like:hover {
+.card__like:hover {
     opacity: .6;
 
 }
