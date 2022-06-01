@@ -20,9 +20,5 @@
         justify-self: stretch;
         padding-left: 15px;
         align-self: start;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        overflow: hidden;
-
     }
 }

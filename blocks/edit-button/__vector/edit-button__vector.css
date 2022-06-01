@@ -1,13 +1,12 @@
 .edit-button__vector {
     width: 10px;
     height: 10px;
-    object-fit: cover;
+    /*object-fit: cover;*/
 }
 
 
 @media screen and (max-width: 880px) {
     .edit-button__vector {
-        background-size: cover;
         width: 7.5px;
         height: 7.5px;
         padding-bottom: 2.9px;

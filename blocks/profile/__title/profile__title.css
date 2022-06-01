@@ -16,11 +16,10 @@
 
 @media screen and (max-width: 880px) {
     .profile__title {
-        font-weight: 500;
-        font-style: normal;
         font-size: 27px;
         line-height: 33px;
         align-self: start;
 
     }
 }
+

@@ -26,12 +26,13 @@ let title = document.querySelector('.profile__title')
 let subtitle = document.querySelector('.profile__subtitle')
 let nameValue = nameInput.value;
 let jobValue = jobInput.value;
-console.log(title.textContent)
+
+
 
 function formSubmitHandler (evt) {
     evt.preventDefault();
-    nameValue = title.textContent
-    jobValue = subtitle.textContent
+    document.querySelector('.profile__title').textContent = document.querySelector('.name').value
+    document.querySelector('.profile__subtitle').textContent = document.querySelector('.job').value
 
 }
 form.addEventListener('submit', formSubmitHandler)
@@ -41,6 +42,7 @@ let button = form.querySelector('.popup__save-button')
 button.addEventListener('click', () => {
     popup.classList.remove('popup_open')
 })
+
 
 
 
